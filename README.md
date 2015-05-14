@@ -9,3 +9,8 @@
 ## access sshkeymanager webinterface
 
  * http://localhost:9001
+
+
+## access API
+
+    curl -X POST -d 'API_KEY=foobar'  http://localhost:9001/api/getkeys/
